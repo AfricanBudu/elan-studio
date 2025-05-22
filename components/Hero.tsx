@@ -4,12 +4,12 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div
-      className="w-full h-screen bg-no-repeat bg-cover pt-[calc(8.3vw+64px)] px-[8.3vw]"
+      className="flex justify-between w-full h-screen bg-no-repeat bg-cover pt-[64px] px-[8.3vw]"
       style={{
-        backgroundImage: "linear-gradient(#22222280 100%), url('/home-1.png')",
+        backgroundImage: `linear-gradient(#22222280 100%), url('/home-1.png')`,
       }}
     >
-      <div className="flex flex-col gap-9">
+      <div className="flex flex-col gap-9 pt-[8.3vw]">
         <p className="text-[50px] leading-[52px] max-w-[758px] font-semibold">
           We take pride in building stylish and featured interior design.
         </p>
@@ -52,6 +52,18 @@ const Hero = () => {
               />
             </Link>
           </div>
+        </div>
+      </div>
+      <div>
+        <div className="flex flex-col h-full justify-end gap-[13.4vw] pb-[3.2vw]">
+          <div className="flex flex-col items-end gap-[29px]">
+            <div className="rounded-full size-[12.21px] bg-[#FFFFFFE5] border border-[#FFF3DC]" />
+            <div className="rounded-full size-[12.21px] bg-[#FFFFFF33] border" />
+            <div className="rounded-full size-[12.21px] bg-[#FFFFFF33] border" />
+          </div>
+          <p className="text-[32px] text-[#FFF3DC] font-semibold">
+            01/<sup className="text-[19px]">04</sup>
+          </p>
         </div>
       </div>
     </div>
