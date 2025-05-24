@@ -6,7 +6,7 @@ const Hero = () => {
     <div
       className="flex justify-between w-full h-screen bg-no-repeat bg-cover pt-[64px] px-[8.3vw]"
       style={{
-        backgroundImage: `linear-gradient(#22222280 100%), url('/home-1.png')`,
+        backgroundImage: `linear-gradient(#22222280 100%), url('/hero-1.png')`,
       }}
     >
       <div className="flex flex-col gap-9 pt-[8.3vw]">
@@ -61,8 +61,8 @@ const Hero = () => {
             <div className="rounded-full size-[12.21px] bg-[#FFFFFF33] border" />
             <div className="rounded-full size-[12.21px] bg-[#FFFFFF33] border" />
           </div>
-          <p className="text-[32px] text-[#FFF3DC] font-semibold">
-            01/<sup className="text-[19px]">04</sup>
+          <p className="text-[32px] text-[#FFF3DC] font-semibold tracking-[-0.64px]">
+            01/<sup className="text-[19px] leading-[-0.38px]">03</sup>
           </p>
         </div>
       </div>
